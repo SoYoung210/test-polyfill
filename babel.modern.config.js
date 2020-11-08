@@ -1,5 +1,3 @@
-const arrayMethodUsesToLength = require("core-js/internals/array-method-uses-to-length");
-
 module.exports = {
   "presets": [
     [
