@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build:ie": "babel --config-file ./babel.ie.config.js index.js -d dist/ie",
-    "build:modern": "babel --config-file ./babel.modern.config.js index.js -d dist/modern"
+    "build:modern:entry": "babel --config-file ./babel.modern.config.js index.js -d dist/modern/entry",
+    "build:modern:usage": "babel --config-file ./babel.usage.config.js index.js -d dist/modern/usage"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
