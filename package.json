@@ -1,8 +1,10 @@
 {
   "scripts": {
-    "build": "babel index.js -d dist"
+    "build:ie": "babel --config-file ./babel.ie.config.js index.js -d dist"
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "core-js": "^3.7.0"
   }
