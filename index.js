@@ -5,3 +5,6 @@ new Promise(resolve => resolve(1))
 class Person {
 }
 const set1 = new Set([1, 2, 3, 4, 5]);
+
+const arr = [1,2,3];
+Array.isArray(arr)
